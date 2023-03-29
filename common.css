@@ -8,6 +8,10 @@ body{
 }
          
 /* template------------------------------------------ */
+a{
+    text-decoration: none;
+    color: #656561;
+}
 .frame_top{
     position: fixed;
     left: 0; right: 0;
