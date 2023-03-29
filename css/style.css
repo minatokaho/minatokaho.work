@@ -1,0 +1,153 @@
+
+/* #fbfaf8 #656561 #74b16d #f2d96b */    
+
+body{
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: '游ゴシック', 'YU Gothic UI', '源ノ角ゴシック light', 'MSゴシック', 'メイリオ', Arial, 'Osaka', sans-serif;
+    font-weight: 500;
+    color: #656561;
+}
+
+/* window------------------------------------------ */
+.home{
+    position: fixed;
+    width: 60vw;
+    height: 40vw;
+    top: calc(52vw - 30vh);
+    left: calc(50vw - 20vw);
+    background-color: rgba(251, 250, 248, 0.4);
+    letter-spacing: 0.2em;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vw 10vw 10vw;
+}
+    .home_logo{
+        width: 20vw;
+        height: 20vw;
+        grid-column: 2/3;
+        grid-row: 1/2;
+
+        background-image: url(images/site_logo.svg);
+    }
+    .home_title{
+        font-size: 24px;
+        font-weight: 600;
+        color:  #656561;
+        text-align: center;
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    .home_button{
+        cursor: pointer;
+        height: 38px;
+        margin: 10px;
+        padding: 4px;
+        text-align: center;
+        color:  #fbfaf8;
+        box-shadow: 0 2px 2px 0 #05531e80;
+        border: solid 1px #74b16d;
+        border-radius: 30px;
+        background-color: #74b16d;
+        font-size: 24px;
+        font-weight: 900;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .home_button:hover{
+        font-size: 22px;
+        background-color: #4a7045;
+
+    }
+         
+/* template------------------------------------------ */
+.frame_top{
+    position: fixed;
+    left: 0; right: 0;
+    top: 10px; 
+    height: 50px;
+    background-color:#fbfaf8;
+    opacity: 0.8;
+} 
+.frame_logo{
+    position: fixed;
+    left: 3.06%;
+    right: 85.49%;
+    top: 3.91%;
+    bottom: 84.38%;
+    height: 162px;
+    width: 162px;
+    background-image: url(images/site_logo.svg);
+    background-size: cover;
+}
+.frame_menu {
+    position: fixed;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+.frame_menu:hover{
+    cursor: pointer;
+    font-size: 14px;
+}
+    #frame_menu_home{
+        border-bottom: solid 2px #74b16d;
+        left: 52.78%;
+        right: 43.61%;
+        top: 4.1%;
+        bottom: 93.85%;
+    }
+    #frame_menu_works{
+        left: 64.44%;
+        right: 31.25%;
+        top: 4.1%;
+        bottom: 93.85%;
+    }
+    #frame_menu_about{
+        left: 77.01%;
+        right: 18.96%;
+        top: 4.1%;
+        bottom: 93.85%;
+    }
+    #frame_menu_contact{
+        text-decoration:none; 
+        left: 89.24%;
+        right: 5.14%;
+        top: 4.1%;
+        bottom: 93.85%;
+        color: #656561;
+    }
+
+.frame_copyright{
+    position: fixed;
+    left: 4.51%;
+    right: 80.9%;
+    top: 91.7%;
+    bottom: 5.57%;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.frame_line {
+    background-color: #656561;
+    position: fixed;
+}
+    #frame_line_left { 
+        top: 0; bottom: 0;
+        left: 0; 
+        width: 10px;
+    }
+    #frame_line_right {
+        top: 0; bottom: 0;
+        right: 0; 
+        width: 10px;
+    }
+    #frame_line_top { 
+        left: 0; right: 0;
+        top: 0; 
+        height: 10px;
+    }
+    #frame_line_bottom { 
+        left: 0; right: 0;
+        bottom: 0;
+        height: 10px;
+    }
