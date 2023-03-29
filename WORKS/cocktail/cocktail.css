@@ -1,0 +1,35 @@
+.wrapper_cocktail{
+    background: url(images_cocktail/texture.jpg) ;
+    width: 48vw; height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.wrapper_cocktail_pic{
+    width: 24vw; 
+}
+
+@media screen and (max-width: 1080px){
+    .wrapper_cocktail{
+        width: 84vw; height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .wrapper_cocktail_pic{
+        width: 42vw; 
+    }
+}
+@media screen and (max-width: 680px){
+    .wrapper_cocktail{
+        width: calc(100vw - 68px); height: auto;
+        margin-left: calc(50% - calc(50vw - 34px));
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .wrapper_cocktail_pic{
+        width: calc(100vw - 68px); 
+    }
+}
+        
