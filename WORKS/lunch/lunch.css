@@ -1,0 +1,98 @@
+.wrapper_half{
+    width: 48vw; height: auto;
+    display: grid;
+    grid-template-columns: 24vw 24vw;
+    grid-template-rows: 1fr;
+}
+.wrapper_half_pic{
+    margin-left: 12px;
+    width:calc(24vw - 24px);
+}
+.wrapper_guide{
+    margin-left: calc(50% - 24vw);
+    width: 48vw; height: auto;
+    display: grid;
+    grid-template-columns: 24vw 24vw;
+    grid-template-rows: 1fr 1fr;
+}
+.wrapper_guide_pic{
+    margin-left: 12px;
+    width:calc(24vw - 12px); 
+}
+.tonmana{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+    .tonmana_wrapper{
+        margin: 8px;
+    }
+    .tonmana_title{
+        border-bottom: dotted 2px;
+    }
+    .tonmana_pic{
+        width: 100%;
+    }
+
+
+/*max-width: 894pxのときの記述*/
+@media screen and (max-width: 1000px){
+    .wrapper_half{
+        width: 80vw; height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .wrapper_half_pic{
+        margin-left: 12px;
+        width:calc(40vw - 24px); 
+    }
+    .wrapper_guide{
+        width: 80vw; height: auto;
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 1fr 1fr;
+    }
+    .wrapper_guide_pic{
+        width: 40vw; 
+    }
+}
+
+/*max-width: 894pxのときの記述*/
+@media screen and (max-width: 680px){
+    .wrapper_half{
+        width: 80vw; height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .wrapper_pic_small{
+        margin-left: 12px;
+        width:calc(40vw - 24px); 
+    }
+    .wrapper_guide{
+        margin-left: calc(50% - 38vw);
+        width: 76vw; height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .wrapper_guide_pic{
+        margin-left: calc(50% - 38vw);
+        width: 76vw
+    }
+    .tonmana{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+        .tonmana_wrapper{
+            margin: 8px;
+        }
+        .tonmana_title{
+            border-bottom: dotted 2px;
+        }
+        .tonmana_pic{
+            width: 100%;
+        }
+}
+    
