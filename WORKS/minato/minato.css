@@ -1,0 +1,27 @@
+.expression{
+    border-radius: 16px;
+     /* background-color: #ebebe7 #ffffff; */
+    list-style: none;
+    display: grid;
+    grid-template-columns: 6fr 60px 6fr;
+    grid-template-rows: 1fr;
+}
+    .expression_icon{
+        margin-right: 60px; margin-left: 60px;
+    }
+    .expression_sign{
+    }
+    .expression_textA{
+        color: #656561;
+        margin-right: 48px; margin-left: 48px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .expression_textB{
+        color: #656561;
+        margin-right: 32px; margin-left: 32px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
