@@ -1,0 +1,13 @@
+::selection{
+    background: #61b16a;
+    color:#fff;
+}
+
+.top_info_tag::after {
+    content:"";
+    display:block;
+    width: 3px; height: 12px;
+    background-color:#61b16a;
+    position:absolute;
+    left: -8px; top: 4px;   
+}

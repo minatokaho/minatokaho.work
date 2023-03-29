@@ -1,0 +1,249 @@
+/* #fbfaf8 #656561 #74b16d #f2d96b */    
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", "游ゴシック", "YU Gothic UI", Verdana, Meiryo, sans-serif;
+    /* font-family: "Gothic MB101 Bold", "MySansSerif", "YakuHanJP", sans-serif; */
+    font-weight: normal;
+    background-color: #fbfaf8;
+    color: #656561;
+}
+p{
+    letter-spacing: 0.1em;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-top: 2px; margin-bottom: 2px;
+}
+a{
+    text-decoration: none;
+}
+         
+/* template------------------------------------------ */
+.frame_top{
+    position: fixed;
+    left: 0; right: 0;
+    top: 10px; 
+    height: 64px;
+    background-color:#fbfaf8;
+    opacity: 0.9;
+} 
+.frame_logo{
+    cursor: pointer;
+    position: fixed;
+    top: 3%; left: 3.06%; right: 85.49%; bottom: 84.38%;
+    width: 162px; height: calc(162px/3);
+    background-image: url(images/site_logo.svg);
+    background-size: cover;
+}
+.frame_menu {
+    cursor: pointer;
+    position: fixed;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    top: 6%;
+}
+.frame_menu:hover{
+    color:  #5f9958;
+}
+    #frame_menu_home{
+        left: 52.78%;
+    }
+    #frame_menu_works{
+        left: 64.44%;
+    }
+    #frame_menu_about{
+        left: 77.01%;
+    }
+    #frame_menu_contact{
+        text-decoration:none; 
+        left: 89.24%;
+        color: #656561;
+    }
+.frame_copyright{
+    position: fixed;
+    left: 4%; bottom: 20px;
+    font-weight: lighter;
+    font-size: 16px;
+}
+.frame_line {
+    background-color: #656561;
+    position: fixed;
+}
+    #frame_line_left { 
+        top: 0; bottom: 0;
+        left: 0; 
+        width: 10px;
+    }
+    #frame_line_right {
+        top: 0; bottom: 0;
+        right: 0; 
+        width: 10px;
+    }
+    #frame_line_top { 
+        left: 0; right: 0;
+        top: 0; 
+        height: 10px;
+    }
+    #frame_line_bottom { 
+        left: 0; right: 0;
+        bottom: 0;
+        height: 10px;
+    }
+.button{
+    cursor: pointer;
+    color:  #05531e80;
+    box-shadow: -4px -4px 12px #ffffff,  4px 4px 12px #9ba79e;
+    border-radius: 30px;
+    background-color: #fbfaf8;
+    text-align: center;
+    text-shadow: 1px 1px 0 #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+.button:hover{
+    box-shadow: -2px -2px 5px  #ffffff, 2px 2px 5px #87978c;
+}
+
+/*max-width: 894pxのときの記述*/
+@media screen and (max-width: 1080px){
+    .frame_top{
+        position: fixed;
+        top: 10px; left: 0; right: 0;
+        height: 50px;
+        background-color:#fbfaf8;
+        opacity: 0.8;
+    } 
+    .frame_logo{
+        position: fixed;
+        left: 3.06%; top: 12px;
+        width: 132px; height: calc(132px/3);
+        background-image: url(images/site_logo.svg);
+        background-size: cover;
+    }
+    .frame_menu {
+        cursor: pointer;
+        position: fixed;
+        font-size: 16px;
+        text-align: center;
+        transition: all 0.2s ease-in-out;
+    }
+    .frame_menu:hover{
+        color:  #5f9958;
+    }
+        #frame_menu_home{
+            left: 50%; top: 32px;
+        }
+        #frame_menu_works{
+            left: 62%; top: 32px;
+        }
+        #frame_menu_about{
+            left: 74%; top: 32px;
+        }
+        #frame_menu_contact{
+            text-decoration:none; 
+            left: 86%; top: 32px;
+            color: #656561;
+        }
+    .frame_copyright{
+        writing-mode: vertical-rl;
+        position: fixed;
+        left: 8px; bottom: 20px;
+        font-size: 16px;
+    }
+    .frame_line {
+        background-color: #656561;
+        position: fixed;
+    }
+        #frame_line_left { 
+            top: 0; bottom: 0;
+            left: 0; 
+            width: 10px;
+        }
+        #frame_line_right {
+            top: 0; bottom: 0;
+            right: 0; 
+            width: 10px;
+        }
+        #frame_line_top { 
+            left: 0; right: 0;
+            top: 0; 
+            height: 10px;
+        }
+        #frame_line_bottom { 
+            left: 0; right: 0;
+            bottom: 0;
+            height: 10px;
+        }
+}
+@media screen and (max-width: 680px){
+    .frame_top{
+        position: fixed;
+        top: 2px; left: 0; right: 0;
+        height: 72px;
+        background-color:#fbfaf8;
+        opacity: 0.8;
+    } 
+    .frame_logo{
+        position: fixed;
+        left: 8px; top: 3.6px;
+        width: 108px; height: calc(108px/3);
+        background-image: url(images/site_logo.svg);
+        background-size: cover;
+    }
+    .frame_menu {
+        cursor: pointer;
+        position: fixed;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 700;
+        transition: all 0.2s ease-in-out;
+        top: 6%;
+    }
+    .frame_menu:hover{
+        color:  #5f9958;
+    }
+        #frame_menu_home{
+            left: 40%; top: 20px;
+        }
+        #frame_menu_works{
+            left: 54%; top: 20px;
+        }
+        #frame_menu_about{
+            left: 68%; top: 20px;
+        }
+        #frame_menu_contact{
+            text-decoration:none; 
+            left: 82%; top: 20px;
+            color: #656561;
+        }
+    .frame_copyright{
+        writing-mode: vertical-rl;
+        position: fixed;
+        left: 2px; bottom: 8px;
+        font-size: 8px;
+    }
+    .frame_line {
+        background-color: #656561;
+        position: fixed;
+    }
+        #frame_line_left { 
+            top: 0; bottom: 0;
+            left: 0; 
+            width: 4px;
+        }
+        #frame_line_right {
+            top: 0; bottom: 0;
+            right: 0; 
+            width: 4px;
+        }
+        #frame_line_top { 
+            left: 0; right: 0;
+            top: 0; 
+            height: 4px;
+        }
+        #frame_line_bottom { 
+            left: 0; right: 0;
+            bottom: 0;
+            height: 4px;
+        }
+}
